@@ -1,0 +1,188 @@
+@charset "UTF-8";
+.flx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+}
+
+
+.nshare {
+  box-sizing: border-box;
+  margin-top: calc(var(--nshare-spacing) * -1);
+  margin-right: calc(var(--nshare-spacing) * -1);
+}
+
+.nshare-item {
+  margin-right: var(--nshare-spacing);
+  margin-top: var(--nshare-spacing);
+}
+
+.nshare-item,
+.nshare-item:hover,
+.nshare-item:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nshare-item {
+  transition: background 0.3s, color 0.3s;
+}
+
+.nshare-item i {
+  transition: transform 0.3s;
+  margin: 0;
+}
+
+.nshare, .nshare-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nshare-fb {
+  background-color: var(--nshare-facebook);
+}
+.nshare-dcrd {
+    background-color: var(--nshare-discord);
+}
+.nshare-gh {
+    background-color: var(--nshare-github);
+}
+.nshare-st {
+    background-color: var(--nshare-steam);
+}
+
+.nshare-tt {
+  background-color: var(--nshare-twitter);
+}
+
+.nshare-pt {
+  background-color: var(--nshare-pinterest);
+}
+
+.nshare-tb {
+  background-color: var(--nshare-tumblr);
+}
+
+.nshare-rd {
+  background-color: var(--nshare-reddit);
+}
+
+.nshare-vk {
+  background-color: var(--nshare-vk);
+}
+
+.nshare-ws {
+  background-color: var(--nshare-whatsapp);
+}
+
+.nshare-tlg {
+  background-color: var(--nshare-telegram);
+}
+
+.nshare-msj {
+  background-color: var(--nshare-email);
+}
+
+.nshare-fb:hover {
+  color: var(--nshare-facebook);
+}
+.nshare-dcrd:hover {
+    color: var(--nshare-discord);
+}
+.nshare-gh:hover {
+    color: var(--nshare-github);
+}
+.nshare-st:hover {
+    color: var(--nshare-steam);
+}
+
+.nshare-tt:hover {
+  color: var(--nshare-twitter);
+}
+
+.nshare-pt:hover {
+  color: var(--nshare-pinterest);
+}
+
+.nshare-tb:hover {
+  color: var(--nshare-tumblr);
+}
+
+.nshare-rd:hover {
+  color: var(--nshare-reddit);
+}
+
+.nshare-vk:hover {
+  color: var(--nshare-vk);
+}
+
+.nshare-ws:hover {
+  color: var(--nshare-whatsapp);
+}
+
+.nshare-tlg:hover {
+  color: var(--nshare-telegram);
+}
+
+.nshare-msj:hover {
+  color: var(--nshare-email);
+}
+
+.nshare-item:hover i {
+  transform: rotate(360deg);
+}
+
+/*}} Fin del core {{*/
+/*! Personalización */
+/* Contenedor
+-----------------------------------------*/
+.nshare {
+  --nshare-spacing: .5rem;
+  /* separacion interna */
+  padding-top: 0;
+  /* separacion superior */
+  padding-bottom: 0;
+  /* separacion inferior */
+}
+
+/* Redes sociales
+-----------------------------------------*/
+.nshare {
+  --nshare-facebook: #1778F2;
+  --nshare-twitter: #55ACEE;
+  --nshare-pinterest: #F0002A;
+  --nshare-tumblr: #35465C;
+  --nshare-reddit: #FF4500;
+  --nshare-vk: #4376A6;
+  --nshare-whatsapp: #4FCE5D;
+  --nshare-telegram: #0088CC;
+  --nshare-email: #464EB8;
+  --nshare-discord: #7289da;
+  --nshare-github: #171515 ;
+  --nshare-steam: #141a3d ;
+}
+
+/* Botones
+-----------------------------------------*/
+.nshare-item {
+  font-size: 22px;
+  /* tamaño de iconos */
+  width: 48px;
+  /* ancho */
+  height: 48px;
+  /* alto */
+  border-radius: 0.5rem;
+  /* bordes redondeados */
+  color: #fff;
+  /* color */
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.1), 0 2px 5px -1px rgba(0, 0, 0, 0.05);
+  /* sombra */
+}
+
+.nshare-item:hover {
+  background-color: #fff;
+  /* fondo (hover) */
+}
